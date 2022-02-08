@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Основи CSS. Селекторы. Цвет
+# goit-markup-hw-01
+Основы HTML
