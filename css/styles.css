@@ -1,0 +1,158 @@
+/* основной чвет текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* белый #FFFFFF */
+
+/* черный #000000 */
+
+/* акцент #2196F3 */
+
+/* разделитель #ECECEC */
+
+/* вторичный белый цвет фона #F5F4FA */
+
+/* вторичный черный цвет фона #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --titlee-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+
+body {
+    background-color: #fff;
+    color: var(--titlee-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* WebStudio */
+
+.logo {
+    color: var(--accent-color);
+}
+.logo-title {
+    color: var(--titlee-text-color)
+}
+
+/* Menu Nav */
+
+.menu-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.menu-nav .link {
+    color: var(--titlee-text-color);
+}
+
+.menu-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Contact-header */
+
+.contact-header .link:hover {
+    color: var(--accent-color);
+}
+
+.contact-header .link {
+    color: var(--primary-text-color);
+} 
+
+/* Header */
+
+.section-header {
+   background-color: #2F303A;    
+}
+
+.header {
+    color: #FFFFFF;
+}
+
+/* Button */
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* Features */
+
+.section-main {
+    background-color: #E5E5E5;
+}
+
+.featur-list .text {
+    color: var(--primary-text-color);
+}
+
+.featur-list .title {
+    color: var(--titlee-text-color);
+}
+
+/* Section */
+
+.section-person {
+    background-color: #F5F4FA;
+}
+
+.section-title {
+    color: var(--titlee-text-color);
+}
+
+.person-list .title {
+    color: var(--titlee-text-color);
+
+}
+
+.person-list .text {
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2F303A;
+}
+.footer .logo-title{
+color: #FFFFFF;
+}
+
+.footer .location {
+    color: #FFFFFF;
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio styles */
+/* Filter */
+
+.nav .link:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+    
+.nav .link {
+    color: var(--titlee-text-color);
+    background-color: #F5F4FA);
+}
+
+/* Group */
+
+.section-group {
+    background-color: #E5E5E5;
+}
+
+.group .title {
+color: var(--titlee-text-color);
+}
+
+.group .text {
+color: var(--primary-text-color);
+}

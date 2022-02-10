@@ -1,77 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-    <!-- Секцыя портфолио -->
-    <h1>Портфолио</h1>
-    <section>
-        <!-- Кнопкы для фильтра -->
-        <ul>
-            <li><button>Все</button></li>
-            <li><button>Веб-сайты</button></li>
-            <li><button>Приложения</button></li>
-            <li><button>Дизайн</button></li>
-            <li><button>Маркетинг</button></li>
-        </ul>
-    </section>
-    <!-- Список проектов -->
-    <section>
-        <ul>
-            <li>
-                <img src="./images/технокряк.jpg" alt="веб-сайт технокряк" width="370">
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/постер_New_Orlean_vs_Golden_Star.jpg" alt="дизайн постера New Orlean vs Golden Star" width="370">
-                <h2>Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/ресторан_Seafood.jpg" alt="приложение ресторана Seafood" width="370">
-                <h2>Ресторан Seafood</h2>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/проект_Prime.jpg" alt="маркетинг проекта Prime" width="370">
-                <h2>Проект Prime</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/проект_Boxes.jpg" alt="приложение проекта Boxes" width="370">
-                <h2>Проект Boxes</h2>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/inspiration_has_no_Borders.jpg" alt="веб-сайт Inspiration has no Borders" width="370">
-                <h2>Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/издание_Limited_Edition.jpg" alt="дизайн издания Limited Edition" width="370">
-                <h2>Издание Limited Edition</h2>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/проект_LAB.jpg" alt="маркетинг проект LAB" width="370">
-                <h2>Проект LAB</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/growing_Business.jpg" alt="приложение Growing Business" width="370">
-                <h2>Growing Business</h2>
-                <p>Приложение</p>
-            </li>
-        </ul>
-    </section>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <!-- Верхняя линия -->
+        <header>
+            <nav>
+                <a href="./index.html" class="logo">Web<span class="logo-title">Studio</span></a>
+
+                <ul class="menu-nav">
+                    <li><a href="" class="link">Студия</a></li>
+                    <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                    <li><a href="" class="link">Контакты</a></li>
+                </ul>
+
+                <ul class="contact-header"> 
+                    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                </ul>
+            </nav>  
+        </header>
+        <main>
+        <!-- Секцыя портфолио -->
+        <section>
+        <h2>Портфолио</h2>
+            <!-- Кнопкы для фильтра -->
+            <ul class="nav">
+                <li><button class="link">Все</button></li>
+                <li><button class="link">Веб-сайты</button></li>
+                <li><button class="link">Приложения</button></li>
+                <li><button class="link">Дизайн</button></li>
+                <li><button class="link">Маркетинг</button></li>
+            </ul>
+        </section>
+        <!-- Список проектов -->
+        <section class="section-group">
+            <ul class="group">
+                <li>
+                    <img src="./images/технокряк.jpg" alt="веб-сайт технокряк" width="370">
+                    <h2 class="title">Технокряк</h2>
+                    <p class="text">Веб-сайт</p>
+                </li>
+                <li>
+                    <img src="./images/постер_New_Orlean_vs_Golden_Star.jpg" alt="дизайн постера New Orlean vs Golden Star" width="370">
+                    <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                    <p class="text">Дизайн</p>
+                </li>
+                <li>
+                    <img src="./images/ресторан_Seafood.jpg" alt="приложение ресторана Seafood" width="370">
+                    <h2 class="title">Ресторан Seafood</h2>
+                    <p class="text">Приложение</p>
+                </li>
+                <li>
+                    <img src="./images/проект_Prime.jpg" alt="маркетинг проекта Prime" width="370">
+                    <h2 class="title">Проект Prime</h2>
+                    <p class="text">Маркетинг</p>
+                </li>
+                <li>
+                    <img src="./images/проект_Boxes.jpg" alt="приложение проекта Boxes" width="370">
+                    <h2 class="title">Проект Boxes</h2>
+                    <p class="text">Приложение</p>
+                </li>
+                <li>
+                    <img src="./images/inspiration_has_no_Borders.jpg" alt="веб-сайт Inspiration has no Borders" width="370">
+                    <h2 class="title">Inspiration has no Borders</h2>
+                    <p class="text">Веб-сайт</p>
+                </li>
+                <li>
+                    <img src="./images/издание_Limited_Edition.jpg" alt="дизайн издания Limited Edition" width="370">
+                    <h2 class="title">Издание Limited Edition</h2>
+                    <p class="text">Дизайн</p>
+                </li>
+                <li>
+                    <img src="./images/проект_LAB.jpg" alt="маркетинг проект LAB" width="370">
+                    <h2 class="title">Проект LAB</h2>
+                    <p class="text">Маркетинг</p>
+                </li>
+                <li>
+                    <img src="./images/growing_Business.jpg" alt="приложение Growing Business" width="370">
+                    <h2 class="title">Growing Business</h2>
+                    <p class="text">Приложение</p>
+                </li>
+            </ul>
+        </section>
+        </main>
+        <!-- Подвал -->
+        <footer class="footer">
+            <a href="./index.html" class="logo">Web<span class="logo-title">Studio</span></a>
+                <address>
+                    <p class="location">г. Киев, пр-т Леси Украинки, 26</p><br/>
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a><br/>
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </address>               
+        </footer>
+    </body>
 </html>
 
 
