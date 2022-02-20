@@ -190,6 +190,15 @@ button {
 }
 .footer .logo-title{
 color: #FFFFFF;
+font-size: 26px;
+line-height: 1.19;
+}
+
+.contacts {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer .location {
