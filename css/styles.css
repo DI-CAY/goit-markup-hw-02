@@ -205,6 +205,13 @@ line-height: 1.19;
     text-decoration: none
 }
 
+.link-address {  
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none
+}
+
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -239,14 +246,14 @@ line-height: 1.19;
     background-color: #FFFFFF;
 }
 
-.section-group .title {
+.group .title {
     color: var(--titlee-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.section-group .text {
+.group .text {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
